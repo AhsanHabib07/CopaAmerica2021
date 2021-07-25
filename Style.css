@@ -1,0 +1,56 @@
+/*----- Navbar
+------------------------ */
+
+body{
+ font-family: Poppins;
+ font-style: normal;
+ font-weight: 500;
+ width: 100%;
+ margin: 0;
+ 
+ 
+}
+
+header{
+    background: #2D25A0;
+    display: flex; 
+    padding: 42px 124px 0 156px;
+}
+
+.header-menu{
+    display: flex;
+    list-style-type:none;
+    flex: 1;
+
+}
+
+.header-menu li{
+    margin-right: 36px;
+
+    
+}
+
+.header-menu li a {
+
+    text-decoration: none;
+    color: white;
+ }
+
+ .action-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 24px;
+    background: #E02C6D;
+    border-style: none;
+    color: white;
+    height: 44px;
+    font-family: inherit;
+}
+
+.action-button i{
+    margin-right: 10px;
+    
+}
+
+
