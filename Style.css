@@ -36,7 +36,7 @@ header{
     color: white;
  }
 
- .action-button{
+ /* .action-button{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -50,6 +50,27 @@ header{
 
 .action-button i{
     margin-right: 10px;
+    
+} */
+
+.log-in a{
+ 
+    background-color: #E02C6D; 
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    
+    
+
+
+
+
+}
+
+.log-in i{
+    margin-right: 10px;
+    
     
 }
 
