@@ -14,7 +14,9 @@ body{
 header{
     background: #2D25A0;
     display: flex; 
-    padding: 42px 124px 0 156px;
+    height: 70px;
+    align-items: center;
+    /* justify-content: center; */
 }
 
 .header-menu{
@@ -60,18 +62,19 @@ header{
     color: white;
     text-decoration: none;
     padding: 10px 10px 10px 10px;
-    
-    
-
-
-
-
 }
 
 .log-in i{
     margin-right: 10px;
-    
-    
+    margin-top: 22px;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+
 }
 
 
