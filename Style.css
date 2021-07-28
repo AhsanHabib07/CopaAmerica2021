@@ -81,6 +81,39 @@
     color: white;
   }
 
+  /*-------- 
+    Players Profile 
+  ---------------------*/
+
+  .players-container{
+    background: #FFFFFF;
+    position: relative;
+    
+  }
+
+  .player-1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px; 
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  
+  }
+  
+  .player-1 img{
+    width: 300px;
+    height: 256px;
+    
+  }
+
+  .player-1-details{
+    width: 300px;
+  }
+  
+
+ 
+
 
 
 
