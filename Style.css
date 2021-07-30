@@ -40,6 +40,7 @@
     margin-right: 10px;
   }
 
+
   /* Copa America --------
   -------------------Home */
 
@@ -87,32 +88,113 @@
 
   .players-container{
     background: #FFFFFF;
-    position: relative;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+    justify-items: center;
+    margin-top: 120px;
+    margin-left: 150px;
+    margin-right: 150px;
   }
-
-  .player-1{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 15px; 
+ 
+  .player{
+    width: 300px;
+    height: 474px;
+    padding: 15px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-  
+    text-align: justify;
+    text-justify: inter-word;
+   
   }
-  
-  .player-1 img{
+  .player img{
     width: 300px;
     height: 256px;
-    
   }
 
-  .player-1-details{
-    width: 300px;
-  }
+/* Copa American 2021 */
+
+.copa2021-container{
+  background: #FFFFFF;
+  display: flex;
+  padding: 7%;
+  margin-top: 160px;
+}
+
+.half-width img{
+width: 567px;
+height: 427px;
+}
+
+.watchnow{
+  margin-top: 5%;
+  width: 173px;
+  height: 44px;
+  background-color: #E02C6D;
+  border: none;
+  font-family: inherit;
+  font-size: 18px;
+  color: white;
+}
+
+/* Footer is here */
+
+.last-lap{
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   
+  
+}
 
- 
+.football img{
+  width: 483.87px;
+  height: 110px;
+
+}
+
+.social-media img{
+  width: 30px;
+  height: 32px;
+  padding: 5px;
+
+}
+
+.copyright p{
+  font-size: 18px;
+  margin: 20px 0px;
+}
+
+/*------------- 
+-------------Media Queries--------- */
+
+/*--- Moobile Devices--- */
+@media screen and (max-width: 688px){
+  header nav div ul{
+    flex-direction: column;
+    text-align: center;
+    display: none;
+  }
+  .Copa-Container{
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  }
+  .players-container{
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: auto;
+  }
+
+}
+
+
+
+
+
+
+  
 
 
 
