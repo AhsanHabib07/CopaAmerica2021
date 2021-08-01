@@ -71,6 +71,11 @@
     width: 50%;
     height: auto;
     padding-left: 35%; 
+    transition-duration: 2s;
+    
+  }
+  .first-player img:hover{
+    transform: scale(1.05)
   }
 
   a button{
